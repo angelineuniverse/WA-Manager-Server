@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "ini server untuk wa manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelineuniverse/WA-Manager-Server.git"
+  },
+  "keywords": [
+    "Whatsapp",
+    "Angeline",
+    "Universe",
+    "Management"
+  ],
+  "author": "priooods",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelineuniverse/WA-Manager-Server/issues"
+  },
+  "homepage": "https://github.com/angelineuniverse/WA-Manager-Server#readme"
+}
