@@ -20,7 +20,7 @@ export async function store(req: any, res: any) {
         created_at: moment().format('YYYY-MM-DD HH:mm:ss'),
         updated_at: moment().format('YYYY-MM-DD HH:mm:ss'),
     };
-    connection.query(`INSERT INTO m_company_tab (code,name,email,contact,m_status_tab_id,created_at,updated_at) VALUES ('${code}','${maps.name}','${maps.email}','${maps.contact}',${maps.m_status_tab_id},'${maps.created_at}','${maps.updated_at}')`, (err, result) => {
+    connection.query(`INSERT INTO m_company_tab (code,name,email,contact,m_status_tab_id,created_at,updated_at) VALUES ('${maps.code}','${maps.name}','${maps.email}','${maps.contact}',${maps.m_status_tab_id},'${maps.created_at}','${maps.updated_at}')`, (err, result) => {
         if (err) throw err;
         res.json(responses("STORE COMPANY", maps));
     });
